@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                style="@style/MyEditTextViewStyle"
+                android:id="@+id/add_food_name"
+                android:hint="Food Name"
+                android:inputType="textMultiLine"/>
+
+
+            <ImageView
+                android:id="@+id/add_food_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ex_ex_large_margin"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                android:src="@drawable/ic_add_a_photo_black_48dp" />
+
+
+            <EditText
+                style="@style/MyEditTextViewStyle"
+                android:id="@+id/add_food_description"
+                android:hint="Description"
+                android:inputType="textMultiLine"/>
+
+
+            <EditText
+                style="@style/MyEditTextViewStyle"
+                android:id="@+id/add_food_price"
+                android:hint="@string/price"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Location"
+                    android:textSize="@dimen/small_text" />
+
+                <Spinner
+                    android:id="@+id/form_for_selling_book_type_spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:entries="@array/Location_array" />
+            </LinearLayout>
+
+
+
+            <EditText
+                style="@style/MyEditTextViewStyle"
+                android:id="@+id/add_food_adress"
+                android:hint="Full Address"
+                android:inputType="textMultiLine"/>
+
+            <EditText
+                style="@style/MyEditTextViewStyle"
+                android:id="@+id/add_food_phone"
+                android:hint="Phone Number"
+                android:inputType="number" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Processing Time"
+                    android:textSize="@dimen/small_text" />
+
+                <Spinner
+                    android:id="@+id/add_food_processingTime"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:entries="@array/Time_array" />
+            </LinearLayout>
+
+
+            <Button
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="Add Food" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

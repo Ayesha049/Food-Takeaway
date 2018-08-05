@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "761277809179",
+    "firebase_url": "https://mojadarkitchen.firebaseio.com",
+    "project_id": "mojadarkitchen",
+    "storage_bucket": "mojadarkitchen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761277809179:android:30ea467923cb0a47",
+        "android_client_info": {
+          "package_name": "com.ayeshaapp.ayesha.mojadarhomekitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761277809179-grodj9hsq6pubn9bruiesnrt87d4fkl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayeshaapp.ayesha.mojadarhomekitchen",
+            "certificate_hash": "fdcc1c2f096ea704ab78bf0d721a075d96f9c881"
+          }
+        },
+        {
+          "client_id": "761277809179-lvjdjg9nqk9dg85pa36p26djiaolmmqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-tUNR0BXtGeDbbwL_lBnJEOQq4vy7CmM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761277809179-lvjdjg9nqk9dg85pa36p26djiaolmmqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

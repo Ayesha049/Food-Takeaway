@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.firebase.ui.auth.AuthUI;
+
 public class Menu2 extends Fragment {
     @Nullable
     @Override
@@ -18,5 +20,7 @@ public class Menu2 extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         getActivity().setTitle("menu 2");
+
+
     }
 }
