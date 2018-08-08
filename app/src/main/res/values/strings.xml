@@ -1,5 +1,12 @@
 
 <resources>
+
+
+    <string name="My_Order_Button"><b>My Orders</b></string>
+
+
+
+
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Mojadar Home Kitchen</string>
     <string name="Sign_Up">Sign Up</string>
@@ -43,6 +50,13 @@
         <item>Banani</item>
         <item>DU and BUET</item>
         <item>Baily Road</item>
+    </string-array>
+
+    <string-array name="FoodType_array" translatable="false">
+        <item>Desert</item>
+        <item>Main course</item>
+        <item>Achar</item>
+        <item>Scacks</item>
     </string-array>
 
     <string-array name="Time_array" translatable="false">

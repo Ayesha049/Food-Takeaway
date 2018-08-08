@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="?android:attr/actionBarSize"
+    android:padding="2dp"
     android:fillViewport="true">
 
 
@@ -35,6 +36,27 @@
                 android:layout_margin="@dimen/margin"
                 android:src="@drawable/ic_add_a_photo_black_48dp" />
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:text="Food Type"
+                    android:textSize="@dimen/small_text" />
+
+                <Spinner
+                    android:id="@+id/add_food_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:entries="@array/FoodType_array" />
+            </LinearLayout>
+
+
 
             <EditText
                 style="@style/MyEditTextViewStyle"
@@ -57,12 +79,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="11dp"
                     android:text="Location"
                     android:textSize="@dimen/small_text" />
 
                 <Spinner
-                    android:id="@+id/form_for_selling_book_type_spinner"
+                    android:id="@+id/add_food_location"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -92,7 +114,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="11dp"
                     android:text="Processing Time"
                     android:textSize="@dimen/small_text" />
 
@@ -107,6 +129,7 @@
 
             <Button
                 style="@style/ButtonStyle"
+                android:id="@+id/add_food"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

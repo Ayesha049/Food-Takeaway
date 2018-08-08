@@ -6,12 +6,12 @@
             android:icon="@drawable/ic_home_red_400_18dp"
             android:title="Home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/add"
-            android:title="two" />
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_box_red_400_24dp"
+            android:title="Profile" />
         <item
             android:id="@+id/nav_Logout"
-            android:icon="@drawable/add"
+            android:icon="@drawable/ic_exit_to_app_red_400_24dp"
             android:title="Logout" />
         <item
             android:id="@+id/nav_manage"
